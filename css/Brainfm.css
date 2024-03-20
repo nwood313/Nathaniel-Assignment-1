@@ -1,8 +1,8 @@
 body {
   margin: 0px;
-  font-family: Arial;
-  font-size: 18px;
-  background-color: rgb(76, 2, 255);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  font-size: 24px;
+  background-color: rgb(78, 2, 255);
 }
 .section-1 {
   display: flex;
@@ -12,6 +12,7 @@ body {
 .section-1 img {
   width: 150px;
   color: white;
+  margin-left: 75px;
 }
 .section-1 a {
   margin-left: auto;
@@ -28,10 +29,10 @@ padding: 20px;
 input[type='button'] {
   display: flex;
   justify-self: right;
-  padding: 7px 20px;
+  padding: 13px 25px;
   font-weight: bold;
-  border: 0px;
-  border-radius: 15px;
+  border: 10px;
+  border-radius: 20px;
   background-color: orange;
   color: white;
 }
@@ -42,22 +43,11 @@ a:hover {
   color: #999999;
 }
 .headline-1 {
-  font-size: 35px;
+  font-size: 42px;
 }
 .headline-2 {
-font-size: 40px;
-font-weight: bold;
-}
-.headline-3 {
-  font-size: 20px;
-}
-.headline-4 {
   font-size: 25px;
   font-weight: bold;
-}
-.headline-5 {
-  font-size: 15px;
-  font-weight: bold;text-underline-position: below;
 }
 .section-2 {
   display: flex;
@@ -67,11 +57,11 @@ font-weight: bold;
   margin-top: 250px; 
 } 
 .section-2 input[type='button'] {
-    padding: 30px 10px;
+    padding: 30px 75px;
     font-weight: bold;
-    border: 0px;
+    border: 50px;
     border-radius: 50px;
-    padding:30px;
+    font-size: 18px;
   }
 .section-3 {
     display: flex;
@@ -90,8 +80,8 @@ font-weight: bold;
       display: grid;
       grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
       gap: 100px; /* Adjust the gap between items */
-      margin-right: 300px;
-      margin-left: 300px;
+      margin-right: 275px;
+      margin-left: 275px;
       color: white;
   }
     
