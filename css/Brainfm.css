@@ -12,7 +12,7 @@ body {
 .section-1 img {
   width: 150px;
   color: white;
-  margin-left: 75px;
+  margin-left: 110px;
 }
 .section-1 a {
   margin-left: auto;
@@ -36,11 +36,14 @@ input[type='button'] {
   background-color: orange;
   color: white;
 }
-a:visited {
-  color: white;
+a:link {
+  text-decoration: none; 
 }
 a:hover {
-  color: #999999;
+  color: rgb(165, 163, 163);
+}
+a:visited {
+  color: white;
 }
 .headline-1 {
   font-size: 42px;
@@ -54,7 +57,7 @@ a:hover {
   flex-direction: row;
   align-items: center;
   color: rgba(255, 255, 255, 0.782);
-  margin-top: 250px; 
+  margin-top: 400px; 
 } 
 .section-2 input[type='button'] {
     padding: 30px 75px;
